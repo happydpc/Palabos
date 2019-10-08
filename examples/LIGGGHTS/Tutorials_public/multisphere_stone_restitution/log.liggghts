@@ -1,0 +1,44 @@
+LIGGGHTS (Version LIGGGHTS-PUBLIC 3.2.0, compiled 2019-09-23-09:55:12 by student, git commit 6de550fbf3b8451f51246aa3c76374012e935340 based on LAMMPS 23 Nov 2013)
+#Multisphere
+
+atom_style	sphere
+atom_modify	map array sort 0 0
+boundary	m m m
+newton		off
+
+communicate	single vel yes
+
+#PUBLIC version only supports serial execution
+processors	1 1 1
+
+units		si
+
+region		reg block -0.3 0.3 -0.3 0.3 0. 0.5 units box
+create_box	1 reg
+Created orthogonal box = (-0.3 -0.3 0) to (0.3 0.3 0.5)
+  1 by 1 by 1 MPI processor grid
+
+neighbor	0.004 bin
+neigh_modify	delay 0
+
+#Material properties required for new pair styles
+
+fix 		m1 all property/global youngsModulus peratomtype 1.e7
+fix 		m2 all property/global poissonsRatio peratomtype 0.45
+fix 		m3 all property/global coefficientRestitution peratomtypepair 1 0.3
+fix 		m4 all property/global coefficientFriction peratomtypepair 1 0.5
+fix 		m5 all property/global characteristicVelocity scalar 2.
+
+#New pair style
+pair_style gran model hertz tangential history #Hertzian without cohesion
+pair_coeff	* *
+
+timestep	0.00001
+
+fix		gravi all gravity 9.81 vector 0.0 0.0 -1.0
+
+fix zwalls all wall/gran model hertz tangential history primitive type 1 zplane 0.0
+
+#distributions for insertion
+fix		pts1 all particletemplate/multisphere 15485863 atom_type 1 density constant 2500 nspheres 50 ntry 1000000 spheres file data/stone1.multisphere scale 0.001 type 1
+ERROR: Invalid fix style: "particletemplate/multisphere" (../modify.cpp:818)
