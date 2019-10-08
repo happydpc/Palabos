@@ -1,0 +1,314 @@
+make[1]: Entering directory '/home/student/LIGGGHTS3.20_LBM/src/Obj_fedora'
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../delete_atoms.cpp > delete_atoms.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../comm.cpp > comm.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_stress_atom.cpp > compute_stress_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_property_molecule.cpp > compute_property_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_sph_density_summation.cpp > fix_sph_density_summation.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_efield.cpp > fix_efield.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_inertia_molecule.cpp > compute_inertia_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_ellipsoid.cpp > atom_vec_ellipsoid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../kspace.cpp > kspace.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_custom.cpp > dump_custom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_surface.cpp > compute_surface.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_prism.cpp > region_prism.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_contact_history.cpp > fix_contact_history.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_sphere.cpp > atom_vec_sphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../library_cfd_coupling.cpp > library_cfd_coupling.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute.cpp > compute.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../improper_hybrid.cpp > improper_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_minimize.cpp > fix_minimize.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_property_global.cpp > fix_property_global.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../input_mesh_tet.cpp > input_mesh_tet.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_time.cpp > fix_ave_time.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_euler.cpp > fix_ave_euler.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_addforce.cpp > fix_addforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../cfd_datacoupling.cpp > cfd_datacoupling.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../rotate.cpp > rotate.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_ke_atom.cpp > compute_ke_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_hybrid_overlay.cpp > pair_hybrid_overlay.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../special.cpp > special.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../lattice.cpp > lattice.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_external.cpp > fix_external.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../angle.cpp > angle.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_massflow_mesh.cpp > fix_massflow_mesh.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair.cpp > pair.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve_limit.cpp > fix_nve_limit.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_store_force.cpp > fix_store_force.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_scalar_transport_equation.cpp > fix_scalar_transport_equation.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../neighbor.cpp > neighbor.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_mesh_surface.cpp > fix_mesh_surface.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_local.cpp > dump_local.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve_noforce.cpp > fix_nve_noforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_insert_rate_region.cpp > fix_insert_rate_region.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../bounding_box.cpp > bounding_box.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../random_park.cpp > random_park.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_hybrid.cpp > atom_vec_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../container_base.cpp > container_base.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../lammps.cpp > lammps.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_msd_molecule.cpp > compute_msd_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_dt_reset.cpp > fix_dt_reset.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_mesh.cpp > fix_mesh.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../domain.cpp > domain.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../velocity.cpp > velocity.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_insert_pack.cpp > fix_insert_pack.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_particledistribution_discrete.cpp > fix_particledistribution_discrete.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../multisphere.cpp > multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_displace_atom.cpp > compute_displace_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_contact_atom.cpp > compute_contact_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_charge.cpp > atom_vec_charge.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix.cpp > fix.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../min_linesearch.cpp > min_linesearch.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_property_atom.cpp > fix_property_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_mesh_surface_stress_servo.cpp > fix_mesh_surface_stress_servo.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_wall_region_sph.cpp > fix_wall_region_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_pressure.cpp > compute_pressure.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../error.cpp > error.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_gyration_molecule.cpp > compute_gyration_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_region_variable.cpp > fix_region_variable.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../particleToInsert.cpp > particleToInsert.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_insert_stream.cpp > fix_insert_stream.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_template_multiplespheres.cpp > fix_template_multiplespheres.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_erotate_sphere_atom.cpp > compute_erotate_sphere_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_image.cpp > dump_image.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_viscous.cpp > fix_viscous.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_property_local.cpp > compute_property_local.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../modify.cpp > modify.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_respa.cpp > fix_respa.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_property_atom_tracer_stream.cpp > fix_property_atom_tracer_stream.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../bond_hybrid.cpp > bond_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../neigh_gran.cpp > neigh_gran.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../thermo.cpp > thermo.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../input_mesh_tri.cpp > input_mesh_tri.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_mesh_tet.cpp > region_mesh_tet.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve_sph_stationary.cpp > fix_nve_sph_stationary.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_custom_vtk.cpp > dump_custom_vtk.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_template_multisphere.cpp > fix_template_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../run.cpp > run.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../variable.cpp > variable.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../finish.cpp > finish.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_momentum.cpp > fix_momentum.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../force.cpp > force.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../delete_bonds.cpp > delete_bonds.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_wedge.cpp > region_wedge.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_erotate_sphere.cpp > compute_erotate_sphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve.cpp > fix_nve.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_sph_artvisc_tenscorr.cpp > pair_sph_artvisc_tenscorr.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_deform.cpp > fix_deform.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../cfd_datacoupling_file.cpp > cfd_datacoupling_file.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_soft.cpp > pair_soft.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../min_cg.cpp > min_cg.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_neighlist_mesh.cpp > fix_neighlist_mesh.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_check_timestep_gran.cpp > fix_check_timestep_gran.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../write_restart.cpp > write_restart.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../read_dump.cpp > read_dump.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../modified_andrew.cpp > modified_andrew.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_gyration.cpp > compute_gyration.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../custom_value_tracker.cpp > custom_value_tracker.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve_sph.cpp > fix_nve_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_freeze.cpp > fix_freeze.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_property_atom_tracer.cpp > fix_property_atom_tracer.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_cna_atom.cpp > compute_cna_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_rigid.cpp > fix_rigid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_property_atom.cpp > compute_property_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../respa.cpp > respa.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_enforce2d.cpp > fix_enforce2d.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region.cpp > region.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_store_state.cpp > fix_store_state.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../math_extra.cpp > math_extra.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../read_data.cpp > read_data.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_msd.cpp > compute_msd.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../main.cpp > main.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_wall_sph.cpp > fix_wall_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_slice.cpp > compute_slice.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_coord_atom.cpp > compute_coord_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../bond.cpp > bond.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_correlate.cpp > fix_ave_correlate.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_planeforce.cpp > fix_planeforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../integrate.cpp > integrate.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../output.cpp > output.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_deform_check.cpp > fix_deform_check.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_intersect.cpp > region_intersect.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_sphere.cpp > region_sphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_sph_density_continuity.cpp > fix_sph_density_continuity.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_erotate_multisphere.cpp > compute_erotate_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_pe.cpp > compute_pe.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../granular_pair_style.cpp > granular_pair_style.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../change_box.cpp > change_box.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../update.cpp > update.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_cfd_coupling_force_implicit.cpp > fix_cfd_coupling_force_implicit.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../universe.cpp > universe.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_spring.cpp > fix_spring.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../verlet.cpp > verlet.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_group_group.cpp > compute_group_group.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_store.cpp > fix_store.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../read_restart.cpp > read_restart.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_box_relax.cpp > fix_box_relax.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../reader.cpp > reader.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../timer.cpp > timer.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_read_restart.cpp > fix_read_restart.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_gran.cpp > pair_gran.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../minimize.cpp > minimize.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../replicate.cpp > replicate.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_fiber_spring_simple.cpp > fix_fiber_spring_simple.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_sph.cpp > atom_vec_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_setforce.cpp > fix_setforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_check_timestep_sph.cpp > fix_check_timestep_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../create_atoms.cpp > create_atoms.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_pair_gran_local.cpp > compute_pair_gran_local.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_cylinder.cpp > region_cylinder.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_cfd_coupling.cpp > fix_cfd_coupling.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_temp.cpp > compute_temp.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../irregular.cpp > irregular.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_wall_gran.cpp > fix_wall_gran.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../create_box.cpp > create_box.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_reduce.cpp > compute_reduce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_cone.cpp > region_cone.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_nve_sphere.cpp > fix_nve_sphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_move.cpp > fix_move.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_atom.cpp > fix_ave_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../write_data.cpp > write_data.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_centro_atom.cpp > compute_centro_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../rerun.cpp > rerun.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../neigh_bond.cpp > neigh_bond.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_euler_vtk.cpp > dump_euler_vtk.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_gran_proxy.cpp > pair_gran_proxy.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_spring_rg.cpp > fix_spring_rg.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_aveforce.cpp > fix_aveforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../memory.cpp > memory.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../properties.cpp > properties.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_block.cpp > region_block.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec.cpp > atom_vec.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_reduce_region.cpp > compute_reduce_region.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dihedral_hybrid.cpp > dihedral_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_cluster_atom.cpp > compute_cluster_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_map.cpp > atom_map.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_atomic.cpp > atom_vec_atomic.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../reader_native.cpp > reader_native.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../contact_models.cpp > contact_models.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_neighbor_list.cpp > region_neighbor_list.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_mesh_vtk.cpp > dump_mesh_vtk.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../modify_liggghts.cpp > modify_liggghts.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../mesh_mover.cpp > mesh_mover.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_union.cpp > region_union.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_spatial.cpp > fix_ave_spatial.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_xyz.cpp > dump_xyz.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_sph.cpp > pair_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../group.cpp > group.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_contact_history_mesh.cpp > fix_contact_history_mesh.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_adapt.cpp > fix_adapt.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_nparticles_tracer_region.cpp > compute_nparticles_tracer_region.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_sph_var.cpp > atom_vec_sph_var.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_pe_atom.cpp > compute_pe_atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../granular_styles.cpp > granular_styles.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_wall.cpp > fix_wall.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump.cpp > dump.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../set.cpp > set.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../angle_hybrid.cpp > angle_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dihedral.cpp > dihedral.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../input_multisphere.cpp > input_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_spring_self.cpp > fix_spring_self.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_insert.cpp > fix_insert.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../image.cpp > image.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../pair_hybrid.cpp > pair_hybrid.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_atom_molecule.cpp > compute_atom_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../library.cpp > library.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../cfd_datacoupling_mpi.cpp > cfd_datacoupling_mpi.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_diam_max.cpp > fix_diam_max.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_ke.cpp > compute_ke.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_com.cpp > compute_com.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_mesh_surface_stress.cpp > fix_mesh_surface_stress.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_atom_vtk.cpp > dump_atom_vtk.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_ke_multisphere.cpp > compute_ke_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_wall_region.cpp > fix_wall_region.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_move_mesh.cpp > fix_move_mesh.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_lineforce.cpp > fix_lineforce.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../random_mars.cpp > random_mars.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_sph.cpp > fix_sph.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../region_plane.cpp > region_plane.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../global_properties.cpp > global_properties.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../input.cpp > input.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_template_sphere.cpp > fix_template_sphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../cfd_regionmodel_none.cpp > cfd_regionmodel_none.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../write_dump.cpp > write_dump.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_movie.cpp > dump_movie.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_gravity.cpp > fix_gravity.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_sph_density_corr.cpp > fix_sph_density_corr.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_rdf.cpp > compute_rdf.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_heat_gran.cpp > fix_heat_gran.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../property_registry.cpp > property_registry.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_com_molecule.cpp > compute_com_molecule.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_cfd_coupling_force.cpp > fix_cfd_coupling_force.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_drag.cpp > fix_drag.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_multisphere.cpp > fix_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom.cpp > atom.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_cfd_coupling_convection.cpp > fix_cfd_coupling_convection.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_sph_pressure.cpp > fix_sph_pressure.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_print.cpp > fix_print.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../min.cpp > min.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../compute_bond_local.cpp > compute_bond_local.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_heat_gran_conduction.cpp > fix_heat_gran_conduction.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../particleToInsert_multisphere.cpp > particleToInsert_multisphere.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_decomposition_vtk.cpp > dump_decomposition_vtk.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../atom_vec_line.cpp > atom_vec_line.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../dump_mesh_stl.cpp > dump_mesh_stl.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../reader_xyz.cpp > reader_xyz.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../improper.cpp > improper.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../displace_atoms.cpp > displace_atoms.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC  -DLAMMPS_GZIP      -M ../fix_ave_histo.cpp > fix_ave_histo.d
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_ave_histo.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../atom_vec_sphere_w.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../displace_atoms.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../improper.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../reader_xyz.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../dump_mesh_stl.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../atom_vec_line.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../dump_decomposition_vtk.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../particleToInsert_multisphere.cpp
+../particleToInsert_multisphere.cpp:145:4: warning: "/*" within comment [-Wcomment]
+    /*
+     
+../particleToInsert_multisphere.cpp: In member function ‘virtual int LAMMPS_NS::ParticleToInsertMultisphere::check_near_set_x_v_omega(double*, double*, double*, double*, LAMMPS_NS::RegionNeighborList&)’:
+../particleToInsert_multisphere.cpp:111:12: warning: unused variable ‘del’ [-Wunused-variable]
+     double del[3],disp_glob[3], rsq, radsum;
+            ^~~
+../particleToInsert_multisphere.cpp:111:33: warning: unused variable ‘rsq’ [-Wunused-variable]
+     double del[3],disp_glob[3], rsq, radsum;
+                                 ^~~
+../particleToInsert_multisphere.cpp:111:38: warning: unused variable ‘radsum’ [-Wunused-variable]
+     double del[3],disp_glob[3], rsq, radsum;
+                                      ^~~~~~
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_heat_gran_conduction.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../compute_bond_local.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../min.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_print.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_sph_pressure.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_cfd_coupling_convection.cpp
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../atom.cpp
+../atom.cpp: In member function ‘void LAMMPS_NS::Atom::data_bodies(int, char*, LAMMPS_NS::AtomVecBody*)’:
+../atom.cpp:842:9: warning: unused variable ‘m’ [-Wunused-variable]
+   int j,m,tagdata,ninteger,ndouble;
+         ^
+mpic++ -O2 -funroll-loops -fstrict-aliasing -Wall -Wno-unused-result -fPIC   -DLAMMPS_GZIP      -c ../fix_multisphere.cpp
+../fix_multisphere.cpp: In constructor ‘LAMMPS_NS::FixMultisphere::FixMultisphere(LAMMPS_NS::LAMMPS*, int, char**)’:
+../fix_multisphere.cpp:90:45: error: invalid use of incomplete type ‘class LAMMPS_NS::MultisphereParallel’
+   multisphere_(*(new MultisphereParallel(lmp))),
+                                             ^
+In file included from ../property_registry.h:54:0,
+                 from ../force.h:56,
+                 from ../fix_multisphere.cpp:56:
+../properties.h:58:16: note: forward declaration of ‘class LAMMPS_NS::MultisphereParallel’
+   inline class MultisphereParallel *ms_data() { return ms_data_;}
+                ^~~~~~~~~~~~~~~~~~~
+../fix_multisphere.cpp: In member function ‘virtual void LAMMPS_NS::FixMultisphere::init()’:
+../fix_multisphere.cpp:299:55: error: invalid application of ‘sizeof’ to incomplete type ‘LAMMPS_NS::MultisphereParallel’
+   if(sizeof(Multisphere) == sizeof(MultisphereParallel) && comm->nprocs > 1)
+                                                       ^
+../fix_multisphere.cpp: In member function ‘virtual void LAMMPS_NS::FixMultisphere::final_integrate()’:
+../fix_multisphere.cpp:539:12: warning: unused variable ‘xcm’ [-Wunused-variable]
+   double **xcm = multisphere_.vcm_.begin();
+            ^~~
+Makefile:101: recipe for target 'fix_multisphere.o' failed
+make[1]: *** [fix_multisphere.o] Error 1
+make[1]: Leaving directory '/home/student/LIGGGHTS3.20_LBM/src/Obj_fedora'
+Makefile:72: recipe for target 'fedora' failed
+make: *** [fedora] Error 2
